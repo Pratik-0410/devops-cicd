@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        IMAGE_NAME = "sweta-motar/devops-integration"
+        IMAGE_NAME = "pratikb24/devops-integration"
     }
 
     stages {
@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/sweta-motar/devops-cicd.git'
+                url: 'https://github.com/Pratik-0410/devops-cicd.git'
             }
         }
 
