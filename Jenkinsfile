@@ -7,6 +7,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "pratikb24/devops-integration"
+        KUBECONFIG = "/root/.kube/config"   // 👈 ADD THIS LINE
     }
 
     stages {
